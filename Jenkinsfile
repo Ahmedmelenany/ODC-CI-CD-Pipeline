@@ -2,7 +2,7 @@ pipeline {
     agent any 
     environment {
         IMAGE_NAME = 'ahmedelenany703/weather-app'
-        DOCKER_CRED= 'docker'
+        DOCKER_CRED= 'Docker'
     }
     stages {
         stage('Clone and Pull Repository') {
