@@ -2,7 +2,7 @@ pipeline {
     agent any 
     environment {
         IMAGE_NAME = 'ahmedelenany703/weather-app'
-        DOCKER_CRED= 'Docker'
+        Docker= 'Docker'
     }
     stages {
         stage('Clone and Pull Repository') {
@@ -24,7 +24,7 @@ pipeline {
         stage('Push Docker Image To Docker Hub') {
             steps {
                 script{
-                        withDockerRegistry([credentialsId: 'DOCKER_CRED']) {
+                        withDockerRegistry([credentialsId: 'Docker']) {
                            sh " docker push $IMAGE_NAME "
                         }
                     }
