@@ -56,7 +56,6 @@
       community.docker.docker_image:
         name: ahmedelenany703/weather-app
         source: pull
-        pull_platform: amd64
 
     - name: Run the Docker container
       community.docker.docker_container:
