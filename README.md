@@ -2,7 +2,8 @@
 
 This project demonstrates a Jenkins CI/CD pipeline that automates the building, Pushing and deployment of applications.
 
-![](./Images/image6.PNG)
+![Jenkins Pipeline Flow](./Images/image6.png)
+
 
 ## Technologies Used 
     - Python
@@ -155,14 +156,14 @@ using the Docker registry credentials.
 will be executed with the inventory file.
 - **Post Build**: This stage will send an email with the job details after the build is complete.
 
-![](./Images/image1.PNG)
+![Jenkins Pipeline Flow](./Images/image1.png)
 
 
 ### Deployed application in the target machine view
 
-![](./Images/image2.PNG)
-![](./Images/image3.PNG)
-![](./Images/image4.PNG)
+![Jenkins Pipeline Flow](./Images/image2.png)
+![Jenkins Pipeline Flow](./Images/image3.png)
+![Jenkins Pipeline Flow](./Images/image4.png)
 
 
 ### SMTP Gmail Configuration
@@ -191,7 +192,7 @@ will be executed with the inventory file.
 
 ### Post Gmail Email Notifaction View
 
-![](./Images/image5.PNG)
+![Jenkins Pipeline Flow](./Images/image5.png)
 
 
 ## Troubleshooting
